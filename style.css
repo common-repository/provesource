@@ -1,0 +1,166 @@
+.ps-settings-container {
+	margin-top: 10px;
+}
+
+.ps-settings-container .label {
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	padding-left: 2px;
+}
+
+#ps-settings .m-t {
+	margin-top: 10px;
+}
+
+#ps-settings .m-t-2 {
+    margin-top: 20px;
+}
+
+#ps-settings .m-r {
+    margin-right: 10px;
+}
+
+#ps-settings .strong {
+    font-weight: 600;
+}
+
+#ps-settings .d-inline-block {
+    display: inline-block;
+}
+
+.ps-settings-container input:focus {
+	border-color: #7725f3;
+    box-shadow: 0 0 2px rgb(119, 37, 243);
+}
+
+.ps-settings-container input {
+	width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#ps-settings form #submit:hover{
+	background: #6310db;
+    border-color: #6310db;
+    color: #fff;
+}
+
+#ps-settings form #submit{
+	background: #7825f3;
+    border-color: #7825f3 #7825f3 #7825f3;
+    box-shadow: 0 1px 0 #7825f3;
+    color: #fff;
+    text-decoration: none !important;
+    text-shadow: none !important;
+    width: 90px;
+    height: 33px;
+    font-weight: bold;
+}
+
+.ps-settings-container a{
+	text-decoration: none;
+	color: #7825f3;
+}
+
+.ps-settings-container a:hover{
+	color: #590cc8;
+	text-decoration: underline !important;
+}
+
+.ps-settings-container div.account-link > a:hover{
+	text-decoration: underline !important;
+}
+
+.ps-settings-container div.account-link > a{
+	color: #7825f3;
+	font-weight: bolder;
+}
+
+.ps-settings-container div.account-link{
+	margin-bottom: 15px;
+    background-color: #f9f5ff;
+    padding: 10px;
+    border-left: 5px solid #7825f3;
+}
+
+.ps-settings-container div.ps-success {
+	margin-bottom: 15px;
+    background-color: #eafdea;
+    padding: 10px;
+    border-left: 5px solid rgb(123, 212, 101);
+}
+
+.ps-settings-container div.ps-warning {
+	margin-bottom: 15px;
+    background-color: rgb(222, 230, 255);
+    padding: 10px;
+    border-left: 5px solid rgb(45, 129, 255);
+}
+
+.ps-settings-container div.ps-red-warning {
+    margin-bottom: 15px;
+    background-color: rgb(255, 223, 223);
+    padding: 10px;
+    border-left: 5px solid rgb(240, 20, 20);
+}
+
+#ps-settings > a > img.top-logo{
+	width: 215px;
+    margin-left: -7px;
+}
+
+#ps-settings {
+	background-color: white;
+    margin-right: 0px;
+    padding-left: 20px;
+    margin-left: -20px;
+    margin-top: 0px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #7725f3;
+    padding-right: 20px;
+}
+
+.ps-error {
+	color: red;
+}
+
+/** switch */
+
+.ps-toggle {
+    position: relative; 
+    width: 50px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.ps-toggle-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.ps-toggle-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 25px; padding: 0; line-height: 25px;
+    border: 2px solid #E3E3E3; border-radius: 25px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.ps-toggle-label:before {
+    content: "";
+    display: block; width: 25px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 22px;
+    border: 2px solid #E3E3E3; border-radius: 25px;
+    transition: all 0.3s ease-in 0s; 
+}
+.ps-toggle-checkbox:checked + .ps-toggle-label {
+    background-color: #49E845;
+}
+.ps-toggle-checkbox:checked + .ps-toggle-label, .ps-toggle-checkbox:checked + .ps-toggle-label:before {
+   border-color: #49E845;
+}
+.ps-toggle-checkbox:checked + .ps-toggle-label:before {
+    right: 0px; 
+}
+
+/** switch - end */
